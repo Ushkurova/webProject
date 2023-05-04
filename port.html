@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snow White</title>
+    <link rel="stylesheet" href="css/snow.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+     <div class="dropdown">
+       <button class="lng-dropbtn">
+          Menu
+       </button>
+       <div class="dropdown-content">
+           <a class="lng-main" href="index.html"><img src="img/home.png" class="icon"> Main Page</a>
+           <a class="lng-about" href="#"><img src="img/info.png" class="icon"> About us</a>
+           <a class="lng-port" href="port.html"><img src="img/contact.png" class="icon"> Portfolio</a>
+           <a class="java" href="game.html"><img src="img/navigation.png" class="icon"> Javascript</a>
+       </div>
+   </div>
+   
+   <select class="change-lang">
+      <div class="cont_opt">
+       <option value="en" selected>En</option>
+       <option value="ru">Ru</option>
+       <option value="fr">Fr</option>
+       </div>
+   </select>
+
+   
+   
+   
+    <h2>Snow White and The 7 Dwarfs</h2>
+    <p class="titleSnow">Parts Of The Fairy Taile Snow White</p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+           <div class="numbertext">1/4</div>
+           <img src="img/snow1.jpg" style="width: 100%">
+            <div class="text">Snow white with the 7 dwarfs </div>
+        </div>
+        <div class="mySlides fade">
+           <div class="numbertext">2/4</div>
+           <img src="img/snow2.jpg" style="width: 100%">
+            <div class="text">Snow white with the 7 dwarfs outside</div>
+        </div>
+        <div class="mySlides fade">
+           <div class="numbertext">3/4</div>
+           <img src="img/snow3.jpg" style="width: 100%">
+            <div class="text">Snow white is holding a very poisonous apple in her hands</div>
+        </div>
+        <div class="mySlides fade">
+           <div class="numbertext">4/4</div>
+           <img src="img/snow4.jpg" style="width: 100%">
+            <div class="text">Snow white is singing with a bird</div>
+        </div>
+        <a onclick="plusSlides(-1)" class="prev">&#10094;</a>
+        <a onclick="plusSlides(1)" class="next">&#10095;</a>
+    </div>
+    <br>
+    <div class="containerDots" style="text-align: center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot"onclick="currentSlide(3)"></span>
+       <span class="dot"onclick="currentSlide(4)"></span>
+        
+    </div>
+    <p class="lng-SNW">Snow White is a princess who lives in a castle with her stepmother, who is a witch. The witch uses an enchanted mirror to tell her who is the most beautiful woman in the kingdom. When the mirror answers 'Snow White', her stepmother has her taken into the forest to be killed.</p>
+    <div class="footer">
+        <p class="lng-footer">
+            Snow White
+        </p>
+    </div>
+        <script src="js/lang.js" defer></script>
+    <script src="js/jssSnow.js" defer></script>
+    <script src="js/snow.js" defer></script>
+</body>
+</html>

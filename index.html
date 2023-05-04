@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FairyTale World</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   <div class="dropdown">
+       <button class="lng-dropbtn">
+          Menu
+       </button>
+       <div class="dropdown-content">
+           <a class="lng-main" href="index.html"><img src="img/home.png" class="icon"> Main Page</a>
+           <a class="lng-about" href="#"><img src="img/info.png" class="icon"> About us</a>
+           <a class="lng-port" href="port.html"><img src="img/contact.png" class="icon"> Portfolio</a>
+           <a class="java" href="game.html"><img src="img/navigation.png" class="icon"> Javascript</a>
+       </div>
+   </div>
+   <select class="change-lang">
+      <div class="cont_opt">
+       <option value="en" selected>En</option>
+       <option value="ru">Ru</option>
+       <option value="fr">Fr</option>
+       </div>
+   </select>
+    <header class="main-header">
+        <div class="layers">
+            <div class="layer_header">
+                <div class="lng-layers_caption">Welcome to parallax</div>
+                <div class="lng-layers_title">Fairy forest</div>
+            </div>
+            <div class="layer layers_base" style="background-image: url(img/layer-base.png);"></div>
+            <div class="layer layers_middle" style="background-image: url(img/layer-middle.png);"></div>
+            <div class="layer layers_front" style="background-image: url(img/layer-front.png);"></div>
+        </div>
+    </header>
+    <article class="main-article" style="background-image: url(img/dungeon.jpg);">
+        <div class="main-article_content">
+            <h2 class="lng-main-article_header">To be continued</h2>
+            <p class="main-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quo iure velit modi, explicabo, cumque facilis quis ab amet autem sapiente repudiandae? Placeat aliquid vero sequi sit, odio nam, pariatur error praesentium.</p>
+        </div>
+        <div class="copy">WebDesignMaster</div>
+        <div class="cont_btn">
+            <a href="javascript:scroll(0,0)">
+                <button class="btn">
+                    Go up
+                </button>
+            </a>
+        </div>
+    </article>
+    <script src="js/lang.js" defer></script>
+    <script src="js/jss.js" defer></script>
+</body>
+</html>
